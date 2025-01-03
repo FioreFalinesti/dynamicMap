@@ -11,7 +11,7 @@ export default defineNuxtConfig({
   typescript: {
     strict: false,
   },
-  modules: ["@primevue/nuxt-module"],
+  modules: ["@primevue/nuxt-module", "@pinia/nuxt"],
   primevue: {
     /* PrimeVue Configuration */
     options: {
